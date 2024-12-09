@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عالم الكواكب</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    <!-- Vidéo de fond dynamique -->
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="video2.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas les vidéos HTML5.
+        </video>
+    </div>
+
+    <!-- Système solaire -->
+    <div class="solar-system">
+        <div class="sun"></div>
+        <div class="venus"></div>
+        
+    </div>
+
+    <!-- Message de bienvenue avec animation -->
+    <div class="welcome-message">
+        <h1>مرحبًا بك في عالم الكواكب</h1>
+        <h2> للتعرف عن عالمنا يجب مشاركتنا بالمعلومات التالية من فضلك</h2>
+        <form action="#" method="post">
+            <p>الاسم:</p>
+            <input type="text" id="name" name="name" placeholder="اكتب اسمك هنا" required>
+    
+            <p>البريد الإلكتروني:</p>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            <p>اي كوكب تريد التعرف عليه؟</p>
+        <select name="" id="">
+            <option value="">الزهرة</option>
+            <option value="">عطارد</option>
+            <option value="">الأرض</option>
+            <option value="">المريخ</option>
+            <option value="">المشتري</option>
+            <option value="">زحل</option>
+            <option value="">أورانوس</option>
+            <option value="">نبتون</option>
+        </select>
+        <p>استمتع بتجربة النظام الشمسي!</p>
+        <a href="continue.html" class="btn">ابدأ المغامرة</a>
+    </div>
+</body>
+</html>
